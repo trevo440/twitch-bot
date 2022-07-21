@@ -4,15 +4,15 @@ from lib import cmds, react
 from lib.cmds import db
 
 NAME = 'trevobot'
-OWNER = 'trevo441'
+OWNER = 'HIDDEN'
 
 class Bot(SingleServerIRCBot):
     def __init__(self):
         self.HOST = 'irc.chat.twitch.tv'
         self.PORT = 6667
         self.USERNAME = NAME.lower()
-        self.CLIENT_ID = 'f4ilmyu4182dg8p027bnvzu0js2nv4'
-        self.TOKEN = 'j2h28vvbuedrabmgggd79jwyedjifz'
+        self.CLIENT_ID = 'HIDDEN'
+        self.TOKEN = 'HIDDEN'
         self.CHANNEL = f'#{OWNER}'
         
         url = f'https://api.twitch.tv/kraken/users?login={self.USERNAME}'
